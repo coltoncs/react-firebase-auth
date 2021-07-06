@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# React/Firebase/Bootstrap Authentication
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Authentication is being fully handled by Firebase. If cloning the repository for local development, be sure to setup a new Firebase Authentication project and use the correct environment variables for the `firebase.js` file. 
+
+## Setting up Firebase
+
+In order to use this project locally, you must setup a Firebase project for the application. [Select Get Started](https://firebase.google.com/). Create your new project and select Authentication from the Firebase Dashboard. Select the Email Provider to enable. From Project Overview, select Add App and select the Web App option. This will provide you with all the necessary keys for the `firebase.js` file.
 
 ## Available Scripts
 
